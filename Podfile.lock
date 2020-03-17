@@ -1,0 +1,21 @@
+PODS:
+  - SDAVAssetExportSession (0.0.4)
+
+DEPENDENCIES:
+  - SDAVAssetExportSession (from `https://github.com/rs/SDAVAssetExportSession.git`)
+
+EXTERNAL SOURCES:
+  SDAVAssetExportSession:
+    :git: https://github.com/rs/SDAVAssetExportSession.git
+
+CHECKOUT OPTIONS:
+  SDAVAssetExportSession:
+    :commit: af4728e5fb83b618a6a548fe78b1bdf6b612fba1
+    :git: https://github.com/rs/SDAVAssetExportSession.git
+
+SPEC CHECKSUMS:
+  SDAVAssetExportSession: 0926b6bf12cc4e9179540957cf5c4233b78f4af0
+
+PODFILE CHECKSUM: a16f263094db74029c03a21c919d707bfdab3d2f
+
+COCOAPODS: 1.8.4

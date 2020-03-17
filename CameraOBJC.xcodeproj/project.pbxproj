@@ -14,9 +14,13 @@
 		3A19C255241B671F00E25388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A19C254241B671F00E25388 /* Assets.xcassets */; };
 		3A19C258241B671F00E25388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A19C256241B671F00E25388 /* LaunchScreen.storyboard */; };
 		3A19C25B241B671F00E25388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A19C25A241B671F00E25388 /* main.m */; };
+		3A19C263241B6F1B00E25388 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A19C262241B6F1B00E25388 /* CameraManager.swift */; };
+		3A19C266241B819000E25388 /* TOUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A19C265241B819000E25388 /* TOUtility.m */; };
+		8265FC25838BF4ECCFBF87C5 /* Pods_CameraOBJC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25451528CF6B399DA629B108 /* Pods_CameraOBJC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25451528CF6B399DA629B108 /* Pods_CameraOBJC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraOBJC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A19C245241B66D900E25388 /* CameraOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A19C248241B66D900E25388 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A19C249241B66D900E25388 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,12 @@
 		3A19C257241B671F00E25388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A19C259241B671F00E25388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A19C25A241B671F00E25388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A19C261241B6F1A00E25388 /* CameraOBJC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraOBJC-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A19C262241B6F1B00E25388 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		3A19C264241B819000E25388 /* TOUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TOUtility.h; sourceTree = "<group>"; };
+		3A19C265241B819000E25388 /* TOUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOUtility.m; sourceTree = "<group>"; };
+		6E6BA275334C8D2B804D6372 /* Pods-CameraOBJC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraOBJC.debug.xcconfig"; path = "Target Support Files/Pods-CameraOBJC/Pods-CameraOBJC.debug.xcconfig"; sourceTree = "<group>"; };
+		F45B608F48DB8B963A3EF131 /* Pods-CameraOBJC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraOBJC.release.xcconfig"; path = "Target Support Files/Pods-CameraOBJC/Pods-CameraOBJC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8265FC25838BF4ECCFBF87C5 /* Pods_CameraOBJC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +58,8 @@
 			children = (
 				3A19C247241B66D900E25388 /* CameraOBJC */,
 				3A19C246241B66D900E25388 /* Products */,
+				FAD197BBAAC8A72078997E76 /* Pods */,
+				67376D3CC0A6D422978EEF86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +74,7 @@
 		3A19C247241B66D900E25388 /* CameraOBJC */ = {
 			isa = PBXGroup;
 			children = (
+				3A19C262241B6F1B00E25388 /* CameraManager.swift */,
 				3A19C248241B66D900E25388 /* AppDelegate.h */,
 				3A19C249241B66D900E25388 /* AppDelegate.m */,
 				3A19C24B241B66D900E25388 /* SceneDelegate.h */,
@@ -72,8 +86,29 @@
 				3A19C256241B671F00E25388 /* LaunchScreen.storyboard */,
 				3A19C259241B671F00E25388 /* Info.plist */,
 				3A19C25A241B671F00E25388 /* main.m */,
+				3A19C261241B6F1A00E25388 /* CameraOBJC-Bridging-Header.h */,
+				3A19C264241B819000E25388 /* TOUtility.h */,
+				3A19C265241B819000E25388 /* TOUtility.m */,
 			);
 			path = CameraOBJC;
+			sourceTree = "<group>";
+		};
+		67376D3CC0A6D422978EEF86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25451528CF6B399DA629B108 /* Pods_CameraOBJC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD197BBAAC8A72078997E76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E6BA275334C8D2B804D6372 /* Pods-CameraOBJC.debug.xcconfig */,
+				F45B608F48DB8B963A3EF131 /* Pods-CameraOBJC.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A19C25E241B671F00E25388 /* Build configuration list for PBXNativeTarget "CameraOBJC" */;
 			buildPhases = (
+				7EDB9A65ACF9443535742AFB /* [CP] Check Pods Manifest.lock */,
 				3A19C241241B66D900E25388 /* Sources */,
 				3A19C242241B66D900E25388 /* Frameworks */,
 				3A19C243241B66D900E25388 /* Resources */,
+				85CCD49F51379C3DD328439D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -107,6 +144,7 @@
 				TargetAttributes = {
 					3A19C244241B66D900E25388 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -141,6 +179,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7EDB9A65ACF9443535742AFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraOBJC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85CCD49F51379C3DD328439D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraOBJC/Pods-CameraOBJC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraOBJC/Pods-CameraOBJC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CameraOBJC/Pods-CameraOBJC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A19C241241B66D900E25388 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -150,6 +230,8 @@
 				3A19C24A241B66D900E25388 /* AppDelegate.m in Sources */,
 				3A19C25B241B671F00E25388 /* main.m in Sources */,
 				3A19C24D241B66D900E25388 /* SceneDelegate.m in Sources */,
+				3A19C263241B6F1B00E25388 /* CameraManager.swift in Sources */,
+				3A19C266241B819000E25388 /* TOUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,34 +369,49 @@
 		};
 		3A19C25F241B671F00E25388 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6BA275334C8D2B804D6372 /* Pods-CameraOBJC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7ACPWS8QS6;
 				INFOPLIST_FILE = CameraOBJC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demansol.CameraOBJC;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraOBJC/CameraOBJC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		3A19C260241B671F00E25388 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45B608F48DB8B963A3EF131 /* Pods-CameraOBJC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7ACPWS8QS6;
 				INFOPLIST_FILE = CameraOBJC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demansol.CameraOBJC;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraOBJC/CameraOBJC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

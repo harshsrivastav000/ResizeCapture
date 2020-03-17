@@ -1,0 +1,6 @@
+framework module SDAVAssetExportSession {
+  umbrella header "SDAVAssetExportSession-umbrella.h"
+
+  export *
+  module * { export * }
+}
